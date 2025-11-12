@@ -1,5 +1,7 @@
+from typing import Optional
+
 class Card:
-    def __init__(self, id:int, name:str, cost:int, card_type:str, atk=None, defense=None, hp=None, effect_type=None, duration=None):
+    def __init__(self, id:int, name:str, cost:int, card_type:str, atk:Optional[int]=None, defense:Optional[int]=None, hp:Optional[int]=None, effect_type:Optional[str]=None, duration:Optional[int]=None):
         self.id=id
         self.cost=cost
         self.card_type=card_type
@@ -24,8 +26,11 @@ class Card:
             return 0
     
     def __str__(self):
-        return (f"Id:{self.id}, Name:{self.name}, card_type:{self.card_type}, hp:{self.hp}, atk:{self.atk}, def:{self.defense}")
-    
+        if (self.card_type=='monster'):
+            return (f"Id:{self.id}, Name:{self.name}, Cost:{self.cost}, HP:{self.hp}, Def:{self.defense}, Atk:{self.atk}")
+        else:
+            return (f"Id:{self.id}, Name:{self.name}, Cost:{self.cost}, Effect_type:{self.effect_type}, Duration:{self.duration}")
+
     def is_alive(self)->bool:
         return self.hp>0
     
