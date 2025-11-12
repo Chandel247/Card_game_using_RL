@@ -1,0 +1,22 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore tests folder (was previously ignored; now tracked so CI can run tests)
+# (tests/ removed from ignore so test files are committed and available to CI)
+
+# Virtual environment / env files
+venv/
+.env
+.env.*
+
+# Editor directories
+.vscode/
+.idea/
+.DS_Store
+
+# Keep workflows and game code tracked
+!/.github/workflows/
+!/game/
+!/game/**
