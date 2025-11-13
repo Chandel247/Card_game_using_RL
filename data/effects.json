@@ -1,0 +1,167 @@
+[
+  {
+    "id": 21,
+    "name": "Minor Heal",
+    "cost": 0,
+    "effect_type": "heal",
+    "target": "self",
+    "value": 5,
+    "duration": 1,
+    "rarity": "common",
+    "description": "Restore 5 HP to yourself immediately."
+  },
+  {
+    "id": 22,
+    "name": "Major Heal",
+    "cost": 1,
+    "effect_type": "heal",
+    "target": "self",
+    "value": 12,
+    "duration": 1,
+    "rarity": "rare",
+    "description": "Restore 12 HP to yourself immediately."
+  },
+  {
+    "id": 23,
+    "name": "Shield Boost",
+    "cost": 1,
+    "effect_type": "boost_defense",
+    "target": "active_monster",
+    "value": 5,
+    "duration": 3,
+    "rarity": "common",
+    "description": "Active monster gains +5 defense for 2 turns."
+  },
+  {
+    "id": 24,
+    "name": "Rage",
+    "cost": 1,
+    "effect_type": "boost_attack",
+    "target": "active_monster",
+    "value": 6,
+    "duration": 3,
+    "rarity": "common",
+    "description": "Active monster gains +6 attack for 2 turns."
+  },
+  {
+    "id": 25,
+    "name": "Fortify",
+    "cost": 1,
+    "effect_type": "boost_defense",
+    "target": "active_monster",
+    "value": 3,
+    "duration": -1,
+    "rarity": "rare",
+    "description": "Permanently increase active monster's defense by 3."
+  },
+  {
+    "id": 26,
+    "name": "Empower",
+    "cost": 2,
+    "effect_type": "boost_attack",
+    "target": "active_monster",
+    "value": 5,
+    "duration": -1,
+    "rarity": "rare",
+    "description": "Permanently increase active monster's attack by 5."
+  },
+  {
+    "id": 27,
+    "name": "Weaken",
+    "cost": 1,
+    "effect_type": "debuff_attack",
+    "target": "enemy_active",
+    "value": 4,
+    "duration": 3,
+    "rarity": "common",
+    "description": "Enemy active monster loses 4 attack for 2 turns."
+  },
+  {
+    "id": 28,
+    "name": "Expose Weakness",
+    "cost": 1,
+    "effect_type": "debuff_defense",
+    "target": "enemy_active",
+    "value": 4,
+    "duration": 3,
+    "rarity": "common",
+    "description": "Enemy active monster loses 4 defense for 2 turns."
+  },
+  {
+    "id": 29,
+    "name": "Restoration Aura",
+    "cost": 1,
+    "effect_type": "heal_over_time",
+    "target": "active_monster",
+    "value": 3,
+    "duration": 4,
+    "rarity": "rare",
+    "description": "Active monster heals 3 HP per turn for 3 turns."
+  },
+  {
+    "id": 30,
+    "name": "Shield Wall",
+    "cost": 0,
+    "effect_type": "restore_shield",
+    "target": "self",
+    "value": 3,
+    "duration": 1,
+    "rarity": "common",
+    "description": "Restore 3 points to your shield."
+  },
+  {
+    "id": 31,
+    "name": "Reinforce",
+    "cost": 1,
+    "effect_type": "restore_shield",
+    "target": "self",
+    "value": 6,
+    "duration": 1,
+    "rarity": "rare",
+    "description": "Restore 6 points to your shield."
+  },
+  {
+    "id": 32,
+    "name": "Draw Power",
+    "cost": 1,
+    "effect_type": "draw_cards",
+    "target": "self",
+    "value": 2,
+    "duration": 1,
+    "rarity": "rare",
+    "description": "Draw 2 additional cards immediately."
+  },
+  {
+    "id": 33,
+    "name": "Mana Surge",
+    "cost": 0,
+    "effect_type": "gain_resources",
+    "target": "self",
+    "value": 2,
+    "duration": 1,
+    "rarity": "rare",
+    "description": "Gain 2 extra resources this turn only."
+  },
+  {
+    "id": 34,
+    "name": "Quick Strike",
+    "cost": 2,
+    "effect_type": "extra_attack",
+    "target": "active_monster",
+    "value": 1,
+    "duration": 1,
+    "rarity": "epic",
+    "description": "Your active monster attacks twice this turn."
+  },
+  {
+    "id": 35,
+    "name": "Sacrifice",
+    "cost": 0,
+    "effect_type": "destroy_boost",
+    "target": "active_monster",
+    "value": 10,
+    "duration": -1,
+    "rarity": "epic",
+    "description": "Destroy your active monster. Next monster gains +10 ATK permanently."
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Goblin Scout",
+    "atk": 4,
+    "defense": 1,
+    "hp": 8,
+    "rarity": "common",
+    "type": "goblin",
+    "description": "Fast but fragile. Good for early aggression."
+  },
+  {
+    "id": 2,
+    "name": "Orc Warrior",
+    "atk": 7,
+    "defense": 3,
+    "hp": 15,
+    "rarity": "common",
+    "type": "orc",
+    "description": "Balanced fighter with decent stats."
+  },
+  {
+    "id": 3,
+    "name": "Knight Defender",
+    "atk": 5,
+    "defense": 7,
+    "hp": 18,
+    "rarity": "common",
+    "type": "human",
+    "description": "High defense makes it hard to kill."
+  },
+  {
+    "id": 4,
+    "name": "Elven Archer",
+    "atk": 8,
+    "defense": 2,
+    "hp": 10,
+    "rarity": "common",
+    "type": "elf",
+    "description": "High attack but low survivability."
+  },
+  {
+    "id": 5,
+    "name": "Flame Mage",
+    "atk": 10,
+    "defense": 1,
+    "hp": 12,
+    "rarity": "rare",
+    "type": "mage",
+    "description": "Glass cannon with devastating attacks."
+  },
+  {
+    "id": 6,
+    "name": "Stone Troll",
+    "atk": 4,
+    "defense": 9,
+    "hp": 25,
+    "rarity": "rare",
+    "type": "troll",
+    "description": "Extremely tanky but slow to kill enemies."
+  },
+  {
+    "id": 7,
+    "name": "Shadow Assassin",
+    "atk": 12,
+    "defense": 2,
+    "hp": 14,
+    "rarity": "rare",
+    "type": "assassin",
+    "description": "High-risk, high-reward glass cannon."
+  },
+  {
+    "id": 8,
+    "name": "Dwarf Priest",
+    "atk": 3,
+    "defense": 6,
+    "hp": 16,
+    "rarity": "common",
+    "type": "dwarf",
+    "description": "Defensive support unit with healing synergy."
+  },
+  {
+    "id": 9,
+    "name": "Storm Dragon",
+    "atk": 15,
+    "defense": 4,
+    "hp": 22,
+    "rarity": "epic",
+    "type": "dragon",
+    "description": "Powerful late-game finisher."
+  },
+  {
+    "id": 10,
+    "name": "Ice Golem",
+    "atk": 2,
+    "defense": 12,
+    "hp": 30,
+    "rarity": "epic",
+    "type": "golem",
+    "description": "Ultimate tank. Nearly unkillable wall."
+  },
+  {
+    "id": 11,
+    "name": "Skeleton Warrior",
+    "atk": 6,
+    "defense": 2,
+    "hp": 9,
+    "rarity": "common",
+    "type": "undead",
+    "description": "Cheap and disposable early pressure."
+  },
+  {
+    "id": 12,
+    "name": "Wolf Pack",
+    "atk": 9,
+    "defense": 3,
+    "hp": 13,
+    "rarity": "common",
+    "type": "beast",
+    "description": "Aggressive mid-tier attacker."
+  },
+  {
+    "id": 13,
+    "name": "Necromancer",
+    "atk": 7,
+    "defense": 4,
+    "hp": 14,
+    "rarity": "rare",
+    "type": "mage",
+    "description": "Synergizes with death/sacrifice effects."
+  },
+  {
+    "id": 14,
+    "name": "Paladin",
+    "atk": 8,
+    "defense": 8,
+    "hp": 20,
+    "rarity": "rare",
+    "type": "human",
+    "description": "Perfectly balanced all-rounder."
+  },
+  {
+    "id": 15,
+    "name": "Demon Lord",
+    "atk": 14,
+    "defense": 3,
+    "hp": 18,
+    "rarity": "epic",
+    "type": "demon",
+    "description": "High attack, risky to leave alive."
+  },
+  {
+    "id": 16,
+    "name": "Phoenix",
+    "atk": 11,
+    "defense": 5,
+    "hp": 16,
+    "rarity": "epic",
+    "type": "dragon",
+    "description": "Strong flier with resurrection potential."
+  },
+  {
+    "id": 17,
+    "name": "Bandit",
+    "atk": 10,
+    "defense": 1,
+    "hp": 11,
+    "rarity": "common",
+    "type": "human",
+    "description": "Fast damage dealer, dies quickly."
+  },
+  {
+    "id": 18,
+    "name": "Giant Beetle",
+    "atk": 5,
+    "defense": 10,
+    "hp": 24,
+    "rarity": "rare",
+    "type": "beast",
+    "description": "Defensive wall for protecting other units."
+  },
+  {
+    "id": 19,
+    "name": "Archmage",
+    "atk": 13,
+    "defense": 2,
+    "hp": 15,
+    "rarity": "epic",
+    "type": "mage",
+    "description": "Powerful spellcaster with low defense."
+  },
+  {
+    "id": 20,
+    "name": "Battle Bear",
+    "atk": 11,
+    "defense": 6,
+    "hp": 19,
+    "rarity": "rare",
+    "type": "beast",
+    "description": "Solid mid-game threat with good stats."
+  }
+]
