@@ -422,8 +422,8 @@ To extend this project:
 
 This project was built by:
 
-- **Shiv**: Game design, game mechanics, the DQN agent, and the rule-based agents (Aggressive, Defensive, Balanced)
-- **Saksham**: The interactive CLI and the Q-Learning agent
+- **Shiv** ([@Chandel247](https://github.com/Chandel247)): Game design, game mechanics, the DQN agent, and the rule-based agents (Aggressive, Defensive, Balanced)
+- **Saksham** ([@saksham23csu274](https://github.com/saksham23csu274)): The interactive CLI and the Q-Learning agent
 
 ## License
 
