@@ -13,6 +13,7 @@ A strategic turn-based card game featuring intelligent AI agents trained using r
 - [Agent Types](#agent-types)
 - [Project Structure](#project-structure)
 - [Advanced Features](#advanced-features)
+- [Authors](#authors)
 
 ## Overview
 
@@ -416,6 +417,13 @@ To extend this project:
 2. Implement new agent types in `agents.py`
 3. Extend game mechanics in `game_engine.py`
 4. Add new interactive features in `main.py`
+
+## Authors
+
+This project was built by:
+
+- **Shiv** ([@Chandel247](https://github.com/Chandel247)): Game design, game mechanics, the DQN agent, and the rule-based agents (Aggressive, Defensive, Balanced)
+- **Saksham** ([@saksham23csu274](https://github.com/saksham23csu274)): The interactive CLI and the Q-Learning agent
 
 ## License
 
